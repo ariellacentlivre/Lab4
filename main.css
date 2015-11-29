@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'sofia_prolight';
+    src: url('SofiaProLight-webfont.eot');
+    src: url('SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProLight-webfont.woff2') format('woff2'),
+         url('SofiaProLight-webfont.woff') format('woff'),
+         url('SofiaProLight-webfont.ttf') format('truetype'),
+         url('SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	background-color: #DCAC8C;
+
+}
+
+header{
+	height:100px;
+	font-family: 'sofia_prolight';
+	
+}
+
+img{
+	height: 300px; 
+	width: 200px;
+}
+
+.container {
+	width:80%;
+	margin: auto;
+}
+
+.image-box{
+	margin: 3px;
+	padding: 2px;
+	border: 3px solid #A49478;
+	display:inline-block;
+}
+
+.imageheader{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'sofia_prolight';
+}
+
+figcaption{
+	text-align: center;
+	font-size: 14px;
+	font-family: 'sofia_prolight';
+}
+
+footer{
+	font-family: 'sofia_prolight'; 
+	font-weight: 10px;
+}
+
+@media (max-width: 1100px){
+	.container{
+		max-width:500px;
+	}
+	header{
+		text-align: center;
+	}
+
+	footer{
+		text-align: right;
+	}
+
+}
+
+@media (max-width: 600px){
+	.container{
+		max-width: 250px;
+	}
+}
